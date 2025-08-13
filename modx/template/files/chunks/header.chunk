@@ -1,0 +1,81 @@
+<div id="header" class="group w-full fixed top-0 left-0 z-40 bg-[#F2F6FF] md:bg-[unset]">
+    <div class="w-full py-3 transition-all ease-out
+                sm:py-6 xl:py-10
+                group-[.header-mobile]:bg-[#F2F6FF] group-[.header-mobile]:shadow-md group-[.header-mobile]:shadow-[#F2F6FF] md:group-[.header-mobile]:py-4">
+
+        <div class="sm:container px-[0.5rem]">
+            <div class="flex justify-between gap-4
+                        md:gap-10
+                        lg:gap-14">
+
+                <div class="flex flex-col justify-center w-full gap-6 md:group-[.header-mobile]:gap-4
+                            md:justify-between">
+
+                    <div class="flex justify-end items-center gap-4 w-full text-sm
+                                md:justify-start md:text-md md:gap-8
+                                lg:text-lg lg:gap-12
+                                xl:gap-26
+                                2xl:gap-28">
+
+                        <a href="{1 | url}" class="flex-1 xl:flex-[unset]">
+                            <img class="max-h-10 lg:max-h-12 xl:max-h-[none]" src="/template/assets/images/logo-string.svg" alt="logo" loading="lazy" decoding="async">
+                        </a>
+
+                        {set $link = 'flex items-center gap-2 text-[#5A575F] transition-all hover:text-[--main-clr]'}
+                        <a href="{'wp_link' | config}" target="_blank" class="{$link}">
+                            <svg class="w-[7svw] aspect-square text-[inherit] s:w-7 md:w-5 lg:w-6"><use xlink:href="#svg-whatsapp"></use></svg>
+                            <span class="hidden md:block">Написать в WhatsApp</span>
+                        </a>
+
+                        <a href="tel:{'front_phone' | config | clearPhone}" class="{$link}">
+                            <svg class="w-[7svw] aspect-square text-[inherit] s:w-7 md:w-5 lg:w-6"><use xlink:href="#svg-phone"></use></svg>
+                            <span class="hidden md:block">{'front_phone' | config}</span>
+                        </a>
+
+                        <a href="mailto:{'front_email' | config}" class="{$link}">
+                            <svg class="w-[7svw] aspect-square text-[inherit] s:w-7 md:w-5 lg:w-6"><use xlink:href="#svg-email"></use></svg>
+                            <span class="hidden md:block">{'front_email' | config}</span>
+                        </a>
+
+                        <svg id="open-menu" class="w-[7svw] aspect-square cursor-pointer
+                                    s:w-7
+                                    md:hidden
+                                    "><use xlink:href="#svg-mobile-menu"></use></svg>
+                    </div>
+
+                    <div class="hidden md:flex group-[.header-mobile]:h-[100%] group-[.header-mobile]:items-center group-[.header-mobile]:hidden">
+                        <ul class="flex gap-4 font-bold text-sm uppercase
+                                   lg:gap-16
+                                   xl:gap-32">
+
+                            {set $linkClass = 'peer block hover:text-gray-600 hover:border-gray-600 border border-transparent transition-all ease-in delay-50 text-gray-600 rounded-lg min-w-max p-2 px-10 hover:bg-[#F2F6FF] md:px-2 lg:text-lg lg:rounded-xl lg:px-4 xl:text-xl has-[.active]:border-[--main-clr] has-[.active]:text-[--main-clr]'}
+
+                            <li><a href="{2 | url}" class="{$linkClass}"><span class="{$_modx->resource.id === 2 ? 'active' : ''}">Цены</span></a></li>
+                            <li><a href="{3 | url}" class="{$linkClass}"><span class="{$_modx->resource.id === 3 ? 'active' : ''}">Заказать парсинг</span></a></li>
+                            <li><a href="{4 | url}" class="{$linkClass}"><span class="{$_modx->resource.id === 4 ? 'active' : ''}">О нас</span></a></li>
+                            <li><a href="{5 | url}" class="{$linkClass}"><span class="{$_modx->resource.id === 5 ? 'active' : ''}">Кейсы и отзывы</span></a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div id="mobile-menu" class="md:hidden h-0 overflow-hidden">
+                <ul class="flex flex-col mt-10 gap-1 font-bold text-[14px] uppercase">
+                    {set $linkClass2 = 'block break-all border border-transparent transition-all ease-in delay-100 text-gray-600 rounded-lg p-2 hover:text-gray-600 hover:border-gray-600 s:text-lg has-[.active]:border-[--main-clr] has-[.active]:text-[--main-clr]'}
+
+                    <li><a href="{2 | url}" class="{$linkClass2}"><span class="{$_modx->resource.id === 2 ? 'active' : ''}">Цены</span></a></li>
+                    <li>
+                        <a href="{3 | url}" class="{$linkClass2}">
+                            <span class="{$id === 3 ? 'active' : ''} flex items-center justify-start gap-4">Заказать парсинг<svg class="w-5 aspect-square"><use xlink:href="#svg-right-arrow"></use></svg></span>
+                        </a>
+                    </li>
+                    <li><a href="{4 | url}" class="{$linkClass2}"><span class="{$_modx->resource.id === 4 ? 'active' : ''}">О нас</span></a></li>
+                    <li><a href="{5 | url}" class="{$linkClass2}"><span class="{$_modx->resource.id === 5 ? 'active' : ''}">Кейсы и отзывы</span></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
