@@ -3,3 +3,4 @@ docker/mysql/volume
 modx/core/cache
 mxadmin/composer.lock
 .data
+.env
