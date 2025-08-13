@@ -40,6 +40,19 @@ if (!require_once(MODX_CORE_PATH . 'vendor/autoload.php')) {
     die();
 }
 
+require_once(dirname(__DIR__) . '/env_init.php');
+
+try {
+    $dotenv = new \Symfony\Component\Dotenv\Dotenv();
+    $dotenv->loadEnv(dirname(__DIR__) . '/.env');
+} catch (Exception $e) {
+    $errorMessage = 'Env file not found';
+    @include MODX_CORE_PATH . 'error/unavailable.include.php';
+    header($_SERVER['SERVER_PROTOCOL'] . ' 503 Service Unavailable');
+    echo "<html><title>Error 503: Site temporarily unavailable</title><body><h1>Error 503</h1><p>{$errorMessage}</p></body></html>";
+    exit();
+}
+
 /* load modX instance */
 $modx = \MODX\Revolution\modX::getInstance(null, [\xPDO\xPDO::OPT_CONN_INIT => [\xPDO\xPDO::OPT_CONN_MUTABLE => true]]);
 

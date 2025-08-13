@@ -41,6 +41,8 @@ if (!(require_once MODX_CORE_PATH . 'vendor/autoload.php')) {
     die('Site temporarily unavailable!');
 }
 
+require_once(dirname(__DIR__) . '/env_init.php');
+
 /* @var \MODX\Revolution\modX $modx create the modX object */
 $modx = \MODX\Revolution\modX::getInstance(null, [\xPDO\xPDO::OPT_CONN_INIT => [\xPDO\xPDO::OPT_CONN_MUTABLE => true]]);
 if (!is_object($modx) || !($modx instanceof \MODX\Revolution\modX)) {
