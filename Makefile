@@ -1,16 +1,15 @@
-#!/usr/bin/make
-# Makefile readme (ru): <http://linux.yaroslavl.ru/docs/prog/gnu_make_3-79_russian_manual.html>
-# Makefile readme (en): <https://www.gnu.org/software/make/manual/html_node/index.html#SEC_Contents>
+include .env
 
 SHELL = /bin/bash
 DC_RUN_ARGS = --rm --user "$(shell id -u):$(shell id -g)"
 COMPOSE_TIMEOUT = 3000
-FILE_NAME='test_file'
-.DEFAULT_GOAL : help
 export
 
+backup:
+	docker exec db_modx /usr/bin/mysqldump -u ${DB_ROOTUSER} --password=${DB_PASSWORD} ${DB_NAME} > backup.sql && clear && echo 'Backup successfully created'
+
 git:
-	git add . && git commit -m "test" && git push origin main
+	git add . && git commit -m "makefile" && git push origin main
 
 build:
 	docker compose up -d --build
@@ -35,9 +34,3 @@ modx-chmod:
 
 docker-chmod:
 	sudo chmod -R 777 ./docker
-
-composer-cp:
-	docker exec -it site composer create-project modx/revolution .
-
-composer:
-	docker exec -it site composer $(arg)

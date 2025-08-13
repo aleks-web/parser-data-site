@@ -76,7 +76,8 @@
         "ext-xml": "*",
         "ext-zip": "*",
         "ext-xmlwriter": "*",
-        "ext-fileinfo": "*"
+        "ext-fileinfo": "*",
+        "symfony/dotenv": "^6.4"
     },
     "suggest": {
         "ext-imagick": "To process images in a more advanced way",

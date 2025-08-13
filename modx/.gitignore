@@ -62,3 +62,6 @@ composer.lock
 
 # ignore .ddev dir
 /.ddev/
+
+#env
+.env

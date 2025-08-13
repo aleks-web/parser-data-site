@@ -1,7 +1,7 @@
 networks:
-    docker-modx-network:
+    modx-pd-site-network:
         driver: bridge
-        name: docker_modx_network
+        name: modx-pd-site-network
 
 services:
     modx_nginx:
@@ -17,7 +17,7 @@ services:
         expose:
             - 80
         networks:
-            - docker-modx-network
+            - modx-pd-site-network
         depends_on:
             site: { condition: service_started }
 
@@ -27,22 +27,24 @@ services:
             context: ./
             dockerfile: ./docker/php-fpm7.4/Dockerfile
         networks:
-            - docker-modx-network
+            - modx-pd-site-network
         volumes:
             - ./modx:/var/www/modx
+            - ./.env:/var/www/modx/.env
 
     db_modx:
+        container_name: db_modx
         image: mysql:5.6
         restart: always
         ports:
             - "3306:3306"
         environment:
-            MYSQL_ROOT_PASSWORD: 'modx_pass'
-            MYSQL_DATABASE: 'modx'
-            MYSQL_USER: 'modx'
-            MYSQL_PASSWORD: 'modx_pass'
+            MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+            MYSQL_DATABASE: ${DB_NAME}
+            MYSQL_USER: ${DB_USER}
+            MYSQL_PASSWORD: ${DB_PASSWORD}
         networks:
-            - docker-modx-network
+            - modx-pd-site-network
         volumes:
             - ./docker/mysql/volume:/var/lib/mysql
         command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_general_ci']
@@ -60,4 +62,4 @@ services:
             PMA_PASSWORD: 'modx_pass'
             PMA_PORT: 3306
         networks:
-            - docker-modx-network
+            - modx-pd-site-network
