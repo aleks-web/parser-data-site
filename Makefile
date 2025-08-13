@@ -27,7 +27,11 @@ docker-clear:
 	docker-compose down --volumes --rmi all
 
 modx-cache-clean:
-	sudo chmod -R 777 ./modx/core/cache && rm -r ./modx/core/cache && mkdir ./modx/core/cache && touch ./modx/core/cache/.gitkeep && chmod -R 777 ./modx/core/cache
+	sudo chmod -R 777 ./modx/core/cache && \
+	rm -r ./modx/core/cache && \
+	mkdir ./modx/core/cache && \
+	touch ./modx/core/cache/.gitkeep && \
+	chmod -R 777 ./modx/core/cache
 
 modx-chmod:
 	sudo chmod -R 777 ./modx
