@@ -1,0 +1,19 @@
+{
+  "name": "parsing-data-site",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "tw": "npx @tailwindcss/cli -i ./modx/template/assets/css/input.css -o ./modx/template/assets/css/output2.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "postcss": "^8.5.1",
+    "postcss-cli": "^11.0.0"
+  }
+}

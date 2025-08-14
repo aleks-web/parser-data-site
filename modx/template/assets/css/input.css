@@ -1,0 +1,41 @@
+:root {
+    --main-clr: #1450D0;
+}
+
+@tailwind base;
+
+@layer base {
+    body {
+        @apply bg-[#F2F6FF];
+        @apply font-sans;
+    }
+}
+
+a {
+    @apply text-[--main-clr] hover:text-blue-500 transition-colors;
+}
+
+.title-blue {
+    @apply
+    flex items-center bg-[--main-clr] max-w-max px-5 py-1 text-gray-50 text-[22px] italic font-bold uppercase rounded-[20px] leading-10
+    md:text-[25px]
+    lg:text-[34px] lg:py-2
+    xl:text-[44px] xl:py-4
+    2xl:px-8;
+}
+
+.title-white {
+    @apply
+    flex items-center bg-[white] max-w-max px-5 py-1 text-gray-600 text-[22px] italic font-bold uppercase rounded-[20px] leading-10
+    md:text-[25px]
+    lg:text-[34px] lg:py-2
+    xl:text-[44px] xl:py-4
+    2xl:px-8;
+}
+
+.page-banner {
+    @apply my-[15svw] s:my-[50px] md:my-[60px] lg:my-[75px] xl:my-[85px] 2xl:my-[100px];
+}
+
+@tailwind components;
+@tailwind utilities;

@@ -15,7 +15,7 @@ build:
 	docker compose up -d --build
 
 up:
-	docker compose up -d
+	docker compose up -d && npm run tw
 
 down:
 	docker compose down
