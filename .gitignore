@@ -1,6 +1,6 @@
 .idea
 docker/mysql/volume
 modx/core/cache
-mxadmin/composer.lock
+node_modules
 .data
 .env
