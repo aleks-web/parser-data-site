@@ -16,6 +16,9 @@ export default {
             lineHeight: {
                 normal: '0.6',
             },
+            fontFamily: {
+                sans: ['Roboto', 'sans-serif'],
+            },
             screens: {
                 's': '320px',
                 'sm': '576px',
