@@ -11,10 +11,10 @@ services:
         ports:
             - "3306:3306"
         environment:
-            MYSQL_ROOT_PASSWORD: modx_pass
-            MYSQL_DATABASE: modx
-            MYSQL_USER: modx
-            MYSQL_PASSWORD: modx_pass
+            MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+            MYSQL_DATABASE: ${DB_NAME}
+            MYSQL_USER: ${DB_USER}
+            MYSQL_PASSWORD: ${DB_PASSWORD}
         networks:
             - modx-pd-site-network
         volumes:
