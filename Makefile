@@ -9,7 +9,7 @@ backup:
 	docker exec db_modx /usr/bin/mysqldump -u ${DB_ROOTUSER} --password=${DB_PASSWORD} ${DB_NAME} > backup.sql && clear && echo 'Backup successfully created'
 
 git:
-	git add . && git commit -m "makefile" && git push origin main
+	make modx-cache-clear && git add . && git commit -m "makefile" && git push origin main
 
 build:
 	docker compose up -d --build
@@ -26,7 +26,7 @@ restart:
 docker-clear:
 	docker-compose down --volumes --rmi all
 
-modx-cache-clean:
+modx-cache-clear:
 	sudo chmod -R 777 ./modx/core/cache && \
 	rm -r ./modx/core/cache && \
 	mkdir ./modx/core/cache && \

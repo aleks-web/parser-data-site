@@ -34,8 +34,6 @@ if (!@require_once MODX_CORE_PATH . "vendor/autoload.php") {
     exit();
 }
 
-require_once(__DIR__ . '/env_init.php');
-
 /* start output buffering */
 ob_start();
 

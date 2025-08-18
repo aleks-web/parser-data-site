@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: ["./modx/template/files/**/*.*"],
+    content: ["./modx/template/render_pages/*.*"],
     theme: {
         container: {
             center: true,

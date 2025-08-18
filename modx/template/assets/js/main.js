@@ -118,16 +118,19 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+/*
+    Кейсы
+*/
 document.addEventListener('DOMContentLoaded', () => {
-   let splides = document.querySelectorAll('.splide-case');
+    let splides = document.querySelectorAll('.splide-case');
 
-   if (splides.length === 0) {
+    if (splides.length === 0) {
       return;
-   }
+    }
 
-   splides.forEach(el => {
+    splides.forEach(el => {
       const splideCollect = new Splide(el, { type: 'fade', pagination: false }).mount();
-   });
+    });
 });
 
 
@@ -225,4 +228,101 @@ document.addEventListener('DOMContentLoaded', () => {
    }
 
    btnShowMoreArticles.addEventListener('click', (e) => showArticles.bind(e.currentTarget)());
+});
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+   const splide = document.querySelector('.splide-works');
+
+   if (!!splide === false) {
+      return;
+   }
+
+    const splideWork = new Splide(splide, {
+        type: 'loop',
+        pagination: false,
+        pauseOnHover: true,
+        autoplay: true,
+        perPage: 2,
+        gap: 20,
+        breakpoints: {
+            1023: {
+                perPage: 1,
+            },
+        },
+    });
+    
+    splideWork.mount();
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+   const splide = document.querySelector('.splide-screnrev');
+
+   if (!!splide === false) {
+      return;
+   }
+
+    const splideWork = new Splide(splide, {
+        type: 'loop',
+        pagination: false,
+        pauseOnHover: true,
+        autoplay: true,
+        perPage: 2,
+        gap: 20,
+        breakpoints: {
+            1023: {
+                perPage: 1,
+            },
+        },
+    });
+    
+    splideWork.mount();
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+   const splide = document.querySelector('.splide-map');
+
+   if (!!splide === false) {
+      return;
+   }
+
+    const splideWork = new Splide(splide, {
+        pagination: false,
+        pauseOnHover: true,
+        autoplay: true,
+        perPage: 4,
+        gap: 20,
+        breakpoints: {
+            1536: {
+                perPage: 3,
+            },
+            1023: {
+                perPage: 2,
+            },
+            768: {
+                perPage: 1,
+            }
+        }
+    });
+    
+    splideWork.mount();
+});
+
+/*
+    tpl.work-item-slide and tpl.work-item
+*/
+document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('click', (e) => {
+        const btn = e.target.closest('[data-screen-show]');
+        
+        if (btn) {
+           let migx = JSON.parse(btn.dataset.migx).map(el => {
+               return { src: '/template/images/' + el.image, opts: { caption: el.title } }
+           });
+           Fancybox.show(migx);
+        }
+    })
 });

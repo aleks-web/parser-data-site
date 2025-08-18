@@ -39,3 +39,32 @@ a {
 
 @tailwind components;
 @tailwind utilities;
+
+.contact-block .splide__arrows .splide__arrow,
+.reviews-block .splide__arrows .splide__arrow,
+.splide-works-block .splide__arrows .splide__arrow {
+    background-color: var(--main-clr);
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+}
+
+.contact-block .splide__arrows .splide__arrow[disabled],
+.reviews-block .splide__arrows .splide__arrow[disabled],
+.splide-works-block .splide__arrows .splide__arrow[disabled] {
+    opacity: 0.4;
+}
+
+.contact-block .splide__arrows .splide__arrow svg,
+.reviews-block .splide__arrows .splide__arrow svg,
+.splide-works-block .splide__arrows .splide__arrow svg {
+    fill: white;
+}
+
+.splide-works {
+    padding: 0 30px;
+}
+
+.splide-works-block .splide__arrow {
+
+}

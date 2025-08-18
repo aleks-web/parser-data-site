@@ -1,7 +1,8 @@
 <?php
+use Symfony\Component\Dotenv\Dotenv;
 
 try {
-    $dotenv = new \Symfony\Component\Dotenv\Dotenv();
+    $dotenv = new Dotenv();
     $dotenv->loadEnv(__DIR__ . '/.env');
 } catch (Exception $e) {
     $errorMessage = 'Env file not found';

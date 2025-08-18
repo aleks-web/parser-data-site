@@ -25,12 +25,11 @@ services:
         container_name: site
         build:
             context: ./
-            dockerfile: ./docker/php-fpm7.4/Dockerfile
+            dockerfile: ./docker/php-fpm8.3/Dockerfile
         networks:
             - modx-pd-site-network
         volumes:
             - ./modx:/var/www/modx
-            - ./.env:/var/www/modx/.env
 
     db_modx:
         container_name: db_modx
@@ -39,10 +38,10 @@ services:
         ports:
             - "3306:3306"
         environment:
-            MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
-            MYSQL_DATABASE: ${DB_NAME}
-            MYSQL_USER: ${DB_USER}
-            MYSQL_PASSWORD: ${DB_PASSWORD}
+            MYSQL_ROOT_PASSWORD: modx_pass
+            MYSQL_DATABASE: modx
+            MYSQL_USER: modx
+            MYSQL_PASSWORD: modx_pass
         networks:
             - modx-pd-site-network
         volumes:
