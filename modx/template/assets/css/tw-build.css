@@ -943,6 +943,11 @@ a:hover {
   margin-bottom: 2.5rem;
 }
 
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -956,11 +961,6 @@ a:hover {
 .my-\[10svh\] {
   margin-top: 10svh;
   margin-bottom: 10svh;
-}
-
-.my-20 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
 }
 
 .-mt-1 {
@@ -1087,10 +1087,6 @@ a:hover {
   display: flex;
 }
 
-.table {
-  display: table;
-}
-
 .grid {
   display: grid;
 }
@@ -1123,6 +1119,10 @@ a:hover {
   height: 2rem;
 }
 
+.h-\[100svh\] {
+  height: 100svh;
+}
+
 .h-\[2px\] {
   height: 2px;
 }
@@ -1153,14 +1153,6 @@ a:hover {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[100svh\] {
-  height: 100svh;
-}
-
-.h-\[90svh\] {
-  height: 90svh;
 }
 
 .max-h-10 {
@@ -1215,6 +1207,10 @@ a:hover {
   width: 2rem;
 }
 
+.w-\[100px\] {
+  width: 100px;
+}
+
 .w-\[100svw\] {
   width: 100svw;
 }
@@ -1229,10 +1225,6 @@ a:hover {
 
 .w-\[20\%\] {
   width: 20%;
-}
-
-.w-\[200px\] {
-  width: 200px;
 }
 
 .w-\[20px\] {
@@ -1281,10 +1273,6 @@ a:hover {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[100px\] {
-  width: 100px;
 }
 
 .min-w-10 {
@@ -1357,10 +1345,6 @@ a:hover {
   flex: 1 1 0%;
 }
 
-.grow {
-  flex-grow: 1;
-}
-
 .translate-y-0 {
   --tw-translate-y: 0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1373,10 +1357,6 @@ a:hover {
 
 .rotate-90 {
   --tw-rotate: 90deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2013,6 +1993,10 @@ a:hover {
   font-size: 40px;
 }
 
+.text-\[60px\] {
+  font-size: 60px;
+}
+
 .text-\[clamp\(10px\2c _8svw\2c _24px\)\] {
   font-size: clamp(10px, 8svw, 24px);
 }
@@ -2040,10 +2024,6 @@ a:hover {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[60px\] {
-  font-size: 60px;
 }
 
 .font-black {
@@ -2182,6 +2162,10 @@ a:hover {
   color: inherit;
 }
 
+.text-\[var\(--main-clr\)\] {
+  color: var(--main-clr);
+}
+
 .text-\[white\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
@@ -2205,14 +2189,6 @@ a:hover {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[var\(--main-clr\)\] {
-  color: var(--main-clr);
-}
-
-.underline {
-  text-decoration-line: underline;
 }
 
 .opacity-0 {
@@ -2743,10 +2719,6 @@ a:hover {
     left: 40%;
   }
 
-  .sm\:top-0 {
-    top: 0px;
-  }
-
   .sm\:top-\[35\%\] {
     top: 35%;
   }
@@ -2827,14 +2799,6 @@ a:hover {
 
   .sm\:grid {
     display: grid;
-  }
-
-  .sm\:w-\[900px\] {
-    width: 900px;
-  }
-
-  .sm\:w-\[200px\] {
-    width: 200px;
   }
 
   .sm\:w-\[150px\] {
@@ -2999,6 +2963,10 @@ a:hover {
     font-size: 28px;
   }
 
+  .sm\:text-\[30px\] {
+    font-size: 30px;
+  }
+
   .sm\:text-\[50px\] {
     font-size: 50px;
   }
@@ -3011,10 +2979,6 @@ a:hover {
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .sm\:text-\[30px\] {
-    font-size: 30px;
   }
 
   .sm\:leading-5 {
@@ -3041,10 +3005,6 @@ a:hover {
 
   .md\:-right-\[400px\] {
     right: -400px;
-  }
-
-  .md\:-right-\[500px\] {
-    right: -500px;
   }
 
   .md\:-top-\[10px\] {
@@ -3126,10 +3086,6 @@ a:hover {
 
   .md\:w-5 {
     width: 1.25rem;
-  }
-
-  .md\:w-\[1000px\] {
-    width: 1000px;
   }
 
   .md\:w-\[500px\] {
@@ -3344,12 +3300,8 @@ a:hover {
     right: -30svw;
   }
 
-  .lg\:-right-\[785px\] {
-    right: -785px;
-  }
-
-  .lg\:-right-\[900px\] {
-    right: -900px;
+  .lg\:-right-\[620px\] {
+    right: -620px;
   }
 
   .lg\:-top-\[40px\] {
@@ -3378,10 +3330,6 @@ a:hover {
 
   .lg\:top-\[87\%\] {
     top: 87%;
-  }
-
-  .lg\:-right-\[620px\] {
-    right: -620px;
   }
 
   .lg\:my-16 {
@@ -3446,8 +3394,8 @@ a:hover {
     width: 1.5rem;
   }
 
-  .lg\:w-\[1200px\] {
-    width: 1200px;
+  .lg\:w-\[200px\] {
+    width: 200px;
   }
 
   .lg\:w-\[50svw\] {
@@ -3456,10 +3404,6 @@ a:hover {
 
   .lg\:w-\[600px\] {
     width: 600px;
-  }
-
-  .lg\:w-\[200px\] {
-    width: 200px;
   }
 
   .lg\:min-w-full {
@@ -3672,12 +3616,12 @@ a:hover {
 }
 
 @media (min-width: 1536px) {
-  .xl\:-right-\[1000px\] {
-    right: -1000px;
-  }
-
   .xl\:-right-\[370px\] {
     right: -370px;
+  }
+
+  .xl\:-right-\[700px\] {
+    right: -700px;
   }
 
   .xl\:-top-\[10svw\] {
@@ -3698,14 +3642,6 @@ a:hover {
 
   .xl\:top-\[70\%\] {
     top: 70%;
-  }
-
-  .xl\:-right-\[720px\] {
-    right: -720px;
-  }
-
-  .xl\:-right-\[700px\] {
-    right: -700px;
   }
 
   .xl\:col-span-1 {
@@ -4054,28 +3990,12 @@ a:hover {
     right: -450px;
   }
 
-  .\32xl\:-right-\[950px\] {
-    right: -950px;
+  .\32xl\:-right-\[800px\] {
+    right: -800px;
   }
 
   .\32xl\:-top-\[220px\] {
     top: -220px;
-  }
-
-  .\32xl\:-right-\[1200px\] {
-    right: -1200px;
-  }
-
-  .\32xl\:-right-\[1100px\] {
-    right: -1100px;
-  }
-
-  .\32xl\:-right-\[900px\] {
-    right: -900px;
-  }
-
-  .\32xl\:-right-\[800px\] {
-    right: -800px;
   }
 
   .\32xl\:my-12 {
@@ -4108,16 +4028,16 @@ a:hover {
     margin-top: 70px;
   }
 
+  .\32xl\:h-\[1000px\] {
+    height: 1000px;
+  }
+
   .\32xl\:h-\[500px\] {
     height: 500px;
   }
 
   .\32xl\:h-\[63px\] {
     height: 63px;
-  }
-
-  .\32xl\:h-\[1000px\] {
-    height: 1000px;
   }
 
   .\32xl\:w-\[1000px\] {
