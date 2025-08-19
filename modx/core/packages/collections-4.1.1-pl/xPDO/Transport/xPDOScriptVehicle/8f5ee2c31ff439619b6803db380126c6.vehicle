@@ -1,0 +1,12 @@
+<?php return array (
+  'class' => 'xPDO\\Transport\\xPDOScriptVehicle',
+  'object' => 
+  array (
+    'source' => 'collections-4.1.1-pl/xPDO/Transport/xPDOScriptVehicle/8f5ee2c31ff439619b6803db380126c6.gpm.script.fixsystemsettings.script',
+  ),
+  'vehicle_class' => 'xPDO\\Transport\\xPDOScriptVehicle',
+  'guid' => 'af2f42b7f4fb485070ab23a95d632b5b',
+  'package' => '',
+  'signature' => '8f5ee2c31ff439619b6803db380126c6',
+  'native_key' => 'af2f42b7f4fb485070ab23a95d632b5b',
+);

@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '85af518b57c2cfa98af74634c9605655',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '7907668dd9988d184fcfc0c8467d009b',
+  'native_key' => 'session_cookie_httponly',
+  'object' => '{"key":"session_cookie_httponly","value":true,"xtype":"combo-boolean","namespace":"core","area":"session","editedon":null}',
+);

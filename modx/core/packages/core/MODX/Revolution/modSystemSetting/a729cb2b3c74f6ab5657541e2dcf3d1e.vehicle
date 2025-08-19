@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '1b120a881fbc71895b3411040718613e',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => 'a729cb2b3c74f6ab5657541e2dcf3d1e',
+  'native_key' => 'allow_tags_in_post',
+  'object' => '{"key":"allow_tags_in_post","value":false,"xtype":"combo-boolean","namespace":"core","area":"system","editedon":null}',
+);

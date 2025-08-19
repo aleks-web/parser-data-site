@@ -1,0 +1,23 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => false,
+  'unique_key' => 
+  array (
+    0 => 'name',
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"core\\/MODX\\/Revolution\\/modDashboardWidget\\/e0b3b5044c8cf5c367d9aab10f2ffff4.resolve.dashboardwidgets.resolver","name":"resolve.dashboardwidgets"}',
+    ),
+  ),
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '087acdab6801774fed93aef9b8cbe18a',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modDashboardWidget',
+  'signature' => 'e0b3b5044c8cf5c367d9aab10f2ffff4',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"w_updates","description":"w_updates_desc","type":"file","content":"[[++manager_path]]controllers\\/default\\/dashboard\\/widget.updates.php","properties":null,"namespace":"core","lexicon":"core:dashboards","size":"one-third","permission":"workspaces"}',
+);

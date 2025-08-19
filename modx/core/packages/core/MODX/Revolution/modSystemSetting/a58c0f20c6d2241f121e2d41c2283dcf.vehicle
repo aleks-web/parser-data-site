@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'fdf96daaa14d699a2841b9f3189794b3',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => 'a58c0f20c6d2241f121e2d41c2283dcf',
+  'native_key' => 'locale',
+  'object' => '{"key":"locale","value":"","xtype":"textfield","namespace":"core","area":"language","editedon":null}',
+);

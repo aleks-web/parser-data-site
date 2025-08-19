@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tinymcerte',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '976cba170c03c0a8bf3d9c2ea73bbc7c',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '51673e2f65ef5992983273f46c053298',
+  'native_key' => 'tinymcerte.max_height',
+  'object' => '{"key":"tinymcerte.max_height","value":"500","xtype":"textfield","namespace":"tinymcerte","area":"tinymcerte.default","editedon":null}',
+);

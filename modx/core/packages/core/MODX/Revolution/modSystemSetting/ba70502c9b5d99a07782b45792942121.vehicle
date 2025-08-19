@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'f5bcef8d1fd60d63ce07ba0676c812d6',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => 'ba70502c9b5d99a07782b45792942121',
+  'native_key' => 'hidemenu_default',
+  'object' => '{"key":"hidemenu_default","value":false,"xtype":"combo-boolean","namespace":"core","area":"site","editedon":null}',
+);

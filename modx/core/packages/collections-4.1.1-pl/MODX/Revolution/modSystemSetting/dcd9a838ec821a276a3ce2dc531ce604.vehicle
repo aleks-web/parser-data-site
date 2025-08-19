@@ -1,0 +1,12 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'f20d23a96f64e978e93c4eed07c67fb3',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => 'dcd9a838ec821a276a3ce2dc531ce604',
+  'native_key' => 'collections.tree_tbar_collection',
+  'object' => '{"key":"collections.tree_tbar_collection","value":0,"xtype":"combo-boolean","namespace":"collections","area":"manager","editedon":null}',
+);

@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '455a0c40a2b23a64b716452a42c861ae',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => 'f99a1a038af4398af5ce384a11f3c3c5',
+  'native_key' => 'cache_alias_map',
+  'object' => '{"key":"cache_alias_map","value":true,"xtype":"combo-boolean","namespace":"core","area":"caching","editedon":null}',
+);

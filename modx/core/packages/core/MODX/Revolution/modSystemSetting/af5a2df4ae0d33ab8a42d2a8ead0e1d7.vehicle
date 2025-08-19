@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'bbcc9f263cf3d9831cb0233d4b95381e',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => 'af5a2df4ae0d33ab8a42d2a8ead0e1d7',
+  'native_key' => 'auto_menuindex',
+  'object' => '{"key":"auto_menuindex","value":true,"xtype":"combo-boolean","namespace":"core","area":"site","editedon":null}',
+);

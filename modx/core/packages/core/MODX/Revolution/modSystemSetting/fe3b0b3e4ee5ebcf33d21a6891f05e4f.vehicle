@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '3b4b5da73ef5caaeaee828b0e607c29e',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => 'fe3b0b3e4ee5ebcf33d21a6891f05e4f',
+  'native_key' => 'access_category_enabled',
+  'object' => '{"key":"access_category_enabled","value":true,"xtype":"combo-boolean","namespace":"core","area":"authentication","editedon":null}',
+);

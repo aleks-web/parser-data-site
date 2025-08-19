@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tinymcerte',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a7588b1f5472db6096e0dcc98f6790cf',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '2d9cc84291376c5c64c39a117939b5df',
+  'native_key' => 'tinymcerte.toolbar3',
+  'object' => '{"key":"tinymcerte.toolbar3","value":"","xtype":"textfield","namespace":"tinymcerte","area":"tinymcerte.toolbar","editedon":null}',
+);

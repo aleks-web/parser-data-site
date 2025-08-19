@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '5260b097cd1f68c5ce0cdc42237f6045',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '1a74d17cfe4f69b17b0701e555f970dd',
+  'native_key' => 'phpthumb_nooffsitelink_enabled',
+  'object' => '{"key":"phpthumb_nooffsitelink_enabled","value":false,"xtype":"combo-boolean","namespace":"core","area":"phpthumb","editedon":null}',
+);

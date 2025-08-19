@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '51b780be9336db25cd755cdae14d42f0',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '718e8f1cacf9b877e88484042c8d9993',
+  'native_key' => 'allow_manager_login_forgot_password',
+  'object' => '{"key":"allow_manager_login_forgot_password","value":true,"xtype":"combo-boolean","namespace":"core","area":"authentication","editedon":null}',
+);

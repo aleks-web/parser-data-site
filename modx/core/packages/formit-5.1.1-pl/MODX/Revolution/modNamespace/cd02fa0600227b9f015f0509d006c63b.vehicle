@@ -1,0 +1,40 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"formit-5.1.1-pl\\/MODX\\/Revolution\\/modNamespace\\/cd02fa0600227b9f015f0509d006c63b\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"formit"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"formit-5.1.1-pl\\/MODX\\/Revolution\\/modNamespace\\/cd02fa0600227b9f015f0509d006c63b\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"formit"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"formit-5.1.1-pl\\/MODX\\/Revolution\\/modNamespace\\/cd02fa0600227b9f015f0509d006c63b.gpm.resolve.bootstrap.resolver","name":"gpm.resolve.bootstrap"}',
+    ),
+    3 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"formit-5.1.1-pl\\/MODX\\/Revolution\\/modNamespace\\/cd02fa0600227b9f015f0509d006c63b\\/3\\/","target":"return MODX_CORE_PATH . \'components\\/formit\\/docs\\/\';","name":"LICENSE.md"}',
+    ),
+    4 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"formit-5.1.1-pl\\/MODX\\/Revolution\\/modNamespace\\/cd02fa0600227b9f015f0509d006c63b\\/4\\/","target":"return MODX_CORE_PATH . \'components\\/formit\\/docs\\/\';","name":"CHANGELOG.md"}',
+    ),
+  ),
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'd63a97a5b9a8fc214a17d2e2cb0d2df0',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modNamespace',
+  'signature' => 'cd02fa0600227b9f015f0509d006c63b',
+  'native_key' => 'formit',
+  'object' => '{"name":"formit","path":"{core_path}components\\/formit\\/","assets_path":"{assets_path}components\\/formit\\/"}',
+);

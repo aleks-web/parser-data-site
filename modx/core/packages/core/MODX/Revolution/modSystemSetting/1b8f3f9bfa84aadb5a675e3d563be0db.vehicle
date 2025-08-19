@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '6ba9b8cc81c7b504c68bfc0f4d9edf38',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '1b8f3f9bfa84aadb5a675e3d563be0db',
+  'native_key' => 'static_elements_automate_plugins',
+  'object' => '{"key":"static_elements_automate_plugins","value":false,"xtype":"combo-boolean","namespace":"core","area":"static_elements","editedon":null}',
+);

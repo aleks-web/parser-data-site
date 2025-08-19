@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '9e8bce2d914bba7fccdf94f47ffca4fc',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '4dc729fe03331c80fd741a9823303914',
+  'native_key' => 'send_poweredby_header',
+  'object' => '{"key":"send_poweredby_header","value":false,"xtype":"combo-boolean","namespace":"core","area":"system","editedon":null}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '1814b3e623c65de739a0f6aa8d095196',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => 'f256677485ac9411c2f8df4cd965d4d3',
+  'native_key' => 'collections.mgr_datetime_format',
+  'object' => '{"key":"collections.mgr_datetime_format","value":"M d, g:i a","xtype":"textfield","namespace":"collections","area":"manager","editedon":null}',
+);

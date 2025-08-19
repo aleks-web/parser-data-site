@@ -1,0 +1,12 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'e66a8b011a2ebdca44c1e3e8062982fd',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '305e3666f23a8a2eea90ce5a01710e20',
+  'native_key' => 'collections.user_js',
+  'object' => '{"key":"collections.user_js","value":"","xtype":"textfield","namespace":"collections","area":"manager","editedon":null}',
+);

@@ -1,0 +1,15 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => false,
+  'unique_key' => 
+  array (
+    0 => 'name',
+  ),
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '65f6c30235c7a6ddcbb68464b45b3074',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modDashboardWidget',
+  'signature' => '3809fd0cb7204389142629e3a6367f67',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"w_newsfeed","description":"w_newsfeed_desc","type":"file","content":"[[++manager_path]]controllers\\/default\\/dashboard\\/widget.modx-news.php","properties":null,"namespace":"core","lexicon":"core:dashboards","size":"one-third","permission":""}',
+);

@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '083409f547e5999dcf25dd1b52d52486',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '84db1fab377820d0b16cde278d1fad8b',
+  'native_key' => 'manager_theme',
+  'object' => '{"key":"manager_theme","value":"default","xtype":"modx-combo-manager-theme","namespace":"core","area":"manager","editedon":null}',
+);

@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'd9702428846e8ae91dc57600d7c9e224',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '2108c779eac798613aa2b55ecfd1d091',
+  'native_key' => 'use_context_resource_table',
+  'object' => '{"key":"use_context_resource_table","value":true,"xtype":"combo-boolean","namespace":"core","area":"caching","editedon":null}',
+);

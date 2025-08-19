@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '7ed7c4f36cee8fae4207e8eff5360886',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '7dbc0689ffde2948387ffebdfc6c74b8',
+  'native_key' => 'search_default',
+  'object' => '{"key":"search_default","value":true,"xtype":"combo-boolean","namespace":"core","area":"site","editedon":null}',
+);

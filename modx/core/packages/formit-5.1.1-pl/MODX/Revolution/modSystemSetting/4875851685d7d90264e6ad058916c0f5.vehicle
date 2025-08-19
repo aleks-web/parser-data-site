@@ -1,0 +1,12 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'a8416afca8000a4dc93e178578dff97f',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '4875851685d7d90264e6ad058916c0f5',
+  'native_key' => 'formit.exclude_contexts',
+  'object' => '{"key":"formit.exclude_contexts","value":"mgr","xtype":"textfield","namespace":"formit","area":"formit","editedon":null}',
+);

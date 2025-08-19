@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '84644a9100f52ff1b78859da3af4b2ba',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modEvent',
+  'signature' => 'f390662be1130cfaae791903d02e61a9',
+  'native_key' => 'OnUserChangePassword',
+  'object' => '{"name":"OnUserChangePassword","service":1,"groupname":"Users"}',
+);

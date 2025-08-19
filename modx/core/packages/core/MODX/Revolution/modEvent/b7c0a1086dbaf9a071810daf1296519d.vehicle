@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '47eef313b026c7106e1fe4f45f9f3369',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modEvent',
+  'signature' => 'b7c0a1086dbaf9a071810daf1296519d',
+  'native_key' => 'OnPackageInstall',
+  'object' => '{"name":"OnPackageInstall","service":2,"groupname":"Package Manager"}',
+);

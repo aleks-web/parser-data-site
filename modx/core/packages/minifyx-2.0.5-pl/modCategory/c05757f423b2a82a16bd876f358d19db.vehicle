@@ -1,0 +1,218 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      '13204806d48e6bdb8807f49e2f284e17' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tplMinifyXcss","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<link rel=\\"stylesheet\\" href=\\"[[+file]]\\" type=\\"text\\/css\\"\\/>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<link rel=\\"stylesheet\\" href=\\"[[+file]]\\" type=\\"text\\/css\\"\\/>"}',
+        'guid' => 'a71554b688bb25c3a0f7fa457bfb1f25',
+        'native_key' => NULL,
+        'signature' => '2eb25ba1c9f3b2441f46a803e0063ef8',
+      ),
+      'ec29aba14c9dd7ed6ce89d3d666a57a2' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tplMinifyXjs","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<script src=\\"[[+file]]\\"><\\/script>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<script src=\\"[[+file]]\\"><\\/script>"}',
+        'guid' => 'e9c53e258ae13841d6ccd68547af3f1b',
+        'native_key' => NULL,
+        'signature' => '7cb7b35ee33bd519ffe78c29f6847946',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'd3e6116b5bd34e57917b94d943e3ee46' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"MinifyX","description":"Combine and minify JS and CSS files","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/**\\n * MinifyX Snippet\\n *\\n * @package minifyx\\n * @subpackage snippet\\n *\\n * @var modX $modx\\n * @var array $scriptProperties\\n *\\/\\n\\nuse TreehillStudio\\\\MinifyX\\\\Snippets\\\\MinifyXSnippet;\\n\\n$corePath = $modx->getOption(\'minifyx.core_path\', null, $modx->getOption(\'core_path\') . \'components\\/minifyx\\/\');\\n\\/** @var MinifyX $minifyx *\\/\\n$minifyx = $modx->getService(\'minifyx\', \'MinifyX\', $corePath . \'model\\/minifyx\\/\', [\\n    \'core_path\' => $corePath\\n]);\\n\\n$snippet = new MinifyXSnippet($modx, $scriptProperties);\\nif ($snippet instanceof TreehillStudio\\\\MinifyX\\\\Snippets\\\\MinifyXSnippet) {\\n    return $snippet->execute();\\n}\\nreturn \'TreehillStudio\\\\MinifyX\\\\Snippets\\\\MinifyXSnippet class not found\';","locked":0,"properties":"a:13:{s:9:\\"jsSources\\";a:7:{s:4:\\"name\\";s:9:\\"jsSources\\";s:4:\\"desc\\";s:25:\\"minifyx.minifyx.jsSources\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:18:\\"minifyx:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:10:\\"cssSources\\";a:7:{s:4:\\"name\\";s:10:\\"cssSources\\";s:4:\\"desc\\";s:26:\\"minifyx.minifyx.cssSources\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:18:\\"minifyx:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:8:\\"minifyJs\\";a:7:{s:4:\\"name\\";s:8:\\"minifyJs\\";s:4:\\"desc\\";s:24:\\"minifyx.minifyx.minifyJs\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:0;s:7:\\"lexicon\\";s:18:\\"minifyx:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:9:\\"minifyCss\\";a:7:{s:4:\\"name\\";s:9:\\"minifyCss\\";s:4:\\"desc\\";s:25:\\"minifyx.minifyx.minifyCss\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:0;s:7:\\"lexicon\\";s:18:\\"minifyx:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:10:\\"jsFilename\\";a:7:{s:4:\\"name\\";s:10:\\"jsFilename\\";s:4:\\"desc\\";s:26:\\"minifyx.minifyx.jsFilename\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:18:\\"minifyx:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:11:\\"cssFilename\\";a:7:{s:4:\\"name\\";s:11:\\"cssFilename\\";s:4:\\"desc\\";s:27:\\"minifyx.minifyx.cssFilename\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:18:\\"minifyx:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:13:\\"jsPlaceholder\\";a:7:{s:4:\\"name\\";s:13:\\"jsPlaceholder\\";s:4:\\"desc\\";s:29:\\"minifyx.minifyx.jsPlaceholder\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:18:\\"MinifyX.javascript\\";s:7:\\"lexicon\\";s:18:\\"minifyx:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:14:\\"cssPlaceholder\\";a:7:{s:4:\\"name\\";s:14:\\"cssPlaceholder\\";s:4:\\"desc\\";s:30:\\"minifyx.minifyx.cssPlaceholder\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:11:\\"MinifyX.css\\";s:7:\\"lexicon\\";s:18:\\"minifyx:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:10:\\"registerJs\\";a:7:{s:4:\\"name\\";s:10:\\"registerJs\\";s:4:\\"desc\\";s:26:\\"minifyx.minifyx.registerJs\\";s:4:\\"type\\";s:4:\\"list\\";s:7:\\"options\\";a:4:{i:0;a:2:{s:4:\\"text\\";s:38:\\"minifyx.minifyx.properties.placeholder\\";s:5:\\"value\\";s:11:\\"placeholder\\";}i:1;a:2:{s:4:\\"text\\";s:34:\\"minifyx.minifyx.properties.startup\\";s:5:\\"value\\";s:7:\\"startup\\";}i:2;a:2:{s:4:\\"text\\";s:34:\\"minifyx.minifyx.properties.default\\";s:5:\\"value\\";s:7:\\"default\\";}i:3;a:2:{s:4:\\"text\\";s:32:\\"minifyx.minifyx.properties.print\\";s:5:\\"value\\";s:5:\\"print\\";}}s:5:\\"value\\";s:11:\\"placeholder\\";s:7:\\"lexicon\\";s:18:\\"minifyx:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:11:\\"registerCss\\";a:7:{s:4:\\"name\\";s:11:\\"registerCss\\";s:4:\\"desc\\";s:27:\\"minifyx.minifyx.registerCss\\";s:4:\\"type\\";s:4:\\"list\\";s:7:\\"options\\";a:3:{i:0;a:2:{s:4:\\"text\\";s:38:\\"minifyx.minifyx.properties.placeholder\\";s:5:\\"value\\";s:11:\\"placeholder\\";}i:1;a:2:{s:4:\\"text\\";s:34:\\"minifyx.minifyx.properties.default\\";s:5:\\"value\\";s:7:\\"default\\";}i:2;a:2:{s:4:\\"text\\";s:32:\\"minifyx.minifyx.properties.print\\";s:5:\\"value\\";s:5:\\"print\\";}}s:5:\\"value\\";s:11:\\"placeholder\\";s:7:\\"lexicon\\";s:18:\\"minifyx:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:6:\\"cssTpl\\";a:7:{s:4:\\"name\\";s:6:\\"cssTpl\\";s:4:\\"desc\\";s:22:\\"minifyx.minifyx.cssTpl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:18:\\"minifyx:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:5:\\"jsTpl\\";a:7:{s:4:\\"name\\";s:5:\\"jsTpl\\";s:4:\\"desc\\";s:21:\\"minifyx.minifyx.jsTpl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:18:\\"minifyx:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:11:\\"forceUpdate\\";a:7:{s:4:\\"name\\";s:11:\\"forceUpdate\\";s:4:\\"desc\\";s:27:\\"minifyx.minifyx.forceUpdate\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";b:0;s:7:\\"lexicon\\";s:18:\\"minifyx:properties\\";s:4:\\"area\\";s:0:\\"\\";}}","moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * MinifyX Snippet\\n *\\n * @package minifyx\\n * @subpackage snippet\\n *\\n * @var modX $modx\\n * @var array $scriptProperties\\n *\\/\\n\\nuse TreehillStudio\\\\MinifyX\\\\Snippets\\\\MinifyXSnippet;\\n\\n$corePath = $modx->getOption(\'minifyx.core_path\', null, $modx->getOption(\'core_path\') . \'components\\/minifyx\\/\');\\n\\/** @var MinifyX $minifyx *\\/\\n$minifyx = $modx->getService(\'minifyx\', \'MinifyX\', $corePath . \'model\\/minifyx\\/\', [\\n    \'core_path\' => $corePath\\n]);\\n\\n$snippet = new MinifyXSnippet($modx, $scriptProperties);\\nif ($snippet instanceof TreehillStudio\\\\MinifyX\\\\Snippets\\\\MinifyXSnippet) {\\n    return $snippet->execute();\\n}\\nreturn \'TreehillStudio\\\\MinifyX\\\\Snippets\\\\MinifyXSnippet class not found\';"}',
+        'guid' => 'ee7ef913b75ec77eabf13693e30ce17d',
+        'native_key' => NULL,
+        'signature' => '0c04bbab1da56f4f40d94ece672e8a75',
+      ),
+    ),
+    'Plugins' => 
+    array (
+      'f7669b39a96a0fb7b2fe5e95f7be5f6b' => 
+      array (
+        'unique_key' => 'name',
+        'preserve_keys' => false,
+        'update_object' => true,
+        'related_objects' => 
+        array (
+          'PluginEvents' => 
+          array (
+            '29d364971be25d3a5d016c84475202a0' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => false,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnSiteRefresh","priority":0,"propertyset":0}',
+              'guid' => 'bc83d914d26a03d8d6b4d3753e1fc65d',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnSiteRefresh',
+              ),
+              'signature' => '52dafdbe72825d740823ca844ac45c00',
+            ),
+            '44246a9a48af8a180af890a18a86a91a' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => false,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnWebPagePrerender","priority":0,"propertyset":0}',
+              'guid' => '729f7cfd84fc96191f46b599309e4e23',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnWebPagePrerender',
+              ),
+              'signature' => '4c60727ebbe2c92e131213e7e794f2d0',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'PluginEvents' => 
+          array (
+            'preserve_keys' => true,
+            'update_object' => false,
+            'unique_key' => 
+            array (
+              0 => 'pluginid',
+              1 => 'event',
+            ),
+          ),
+        ),
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"MinifyX","description":"Combine and minify JS and CSS files","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * MinifyX Plugin\\n *\\n * @package minifyx\\n * @subpackage plugin\\n *\\n * @var modX $modx\\n * @var array $scriptProperties\\n *\\/\\n\\n$className = \'TreehillStudio\\\\MinifyX\\\\Plugins\\\\Events\\\\\\\\\' . $modx->event->name;\\n\\n$corePath = $modx->getOption(\'minifyx.core_path\', null, $modx->getOption(\'core_path\') . \'components\\/minifyx\\/\');\\n\\/** @var MinifyX $minifyx *\\/\\n$minifyx = $modx->getService(\'minifyx\', \'MinifyX\', $corePath . \'model\\/minifyx\\/\', [\\n    \'core_path\' => $corePath\\n]);\\n\\nif ($minifyx) {\\n    if (class_exists($className)) {\\n        $handler = new $className($modx, $scriptProperties);\\n        if (get_class($handler) == $className) {\\n            $handler->run();\\n        } else {\\n            $modx->log(xPDO::LOG_LEVEL_ERROR, $className. \' could not be initialized!\', \'\', \'MinifyX Plugin\');\\n        }\\n    } else {\\n        $modx->log(xPDO::LOG_LEVEL_ERROR, $className. \' was not found!\', \'\', \'MinifyX Plugin\');\\n    }\\n}\\n\\nreturn;","locked":0,"properties":"a:0:{}","disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * MinifyX Plugin\\n *\\n * @package minifyx\\n * @subpackage plugin\\n *\\n * @var modX $modx\\n * @var array $scriptProperties\\n *\\/\\n\\n$className = \'TreehillStudio\\\\MinifyX\\\\Plugins\\\\Events\\\\\\\\\' . $modx->event->name;\\n\\n$corePath = $modx->getOption(\'minifyx.core_path\', null, $modx->getOption(\'core_path\') . \'components\\/minifyx\\/\');\\n\\/** @var MinifyX $minifyx *\\/\\n$minifyx = $modx->getService(\'minifyx\', \'MinifyX\', $corePath . \'model\\/minifyx\\/\', [\\n    \'core_path\' => $corePath\\n]);\\n\\nif ($minifyx) {\\n    if (class_exists($className)) {\\n        $handler = new $className($modx, $scriptProperties);\\n        if (get_class($handler) == $className) {\\n            $handler->run();\\n        } else {\\n            $modx->log(xPDO::LOG_LEVEL_ERROR, $className. \' could not be initialized!\', \'\', \'MinifyX Plugin\');\\n        }\\n    } else {\\n        $modx->log(xPDO::LOG_LEVEL_ERROR, $className. \' was not found!\', \'\', \'MinifyX Plugin\');\\n    }\\n}\\n\\nreturn;"}',
+        'guid' => '0491caebc85d17d8435d3b1ff425a053',
+        'native_key' => NULL,
+        'signature' => 'fbfec4a84da09869e6608c61c441d0ee',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Children' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'parent',
+        1 => 'category',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'unique_key' => 'name',
+      'preserve_keys' => false,
+      'update_object' => true,
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PluginEvents' => 
+        array (
+          'preserve_keys' => true,
+          'update_object' => false,
+          'unique_key' => 
+          array (
+            0 => 'pluginid',
+            1 => 'event',
+          ),
+        ),
+      ),
+    ),
+  ),
+  'namespace' => 'minifyx',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"minifyx-2.0.5-pl\\/modCategory\\/c05757f423b2a82a16bd876f358d19db\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"minifyx"}',
+    ),
+    1 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"minifyx-2.0.5-pl\\/modCategory\\/c05757f423b2a82a16bd876f358d19db.resolve.composer.resolver","type":"php","name":"resolve.composer"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"minifyx-2.0.5-pl\\/modCategory\\/c05757f423b2a82a16bd876f358d19db.resolve.setup.resolver","type":"php","name":"resolve.setup"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"minifyx-2.0.5-pl\\/modCategory\\/c05757f423b2a82a16bd876f358d19db.resolve.cleanup.resolver","type":"php","name":"resolve.cleanup"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"minifyx-2.0.5-pl\\/modCategory\\/c05757f423b2a82a16bd876f358d19db.resolve.update.resolver","type":"php","name":"resolve.update"}',
+    ),
+    5 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"minifyx-2.0.5-pl\\/modCategory\\/c05757f423b2a82a16bd876f358d19db.resolve.treehillstudio.resolver","type":"php","name":"resolve.treehillstudio"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3153ff3add705c348a8ec1816a584163',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'c05757f423b2a82a16bd876f358d19db',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"MinifyX","rank":0}',
+);

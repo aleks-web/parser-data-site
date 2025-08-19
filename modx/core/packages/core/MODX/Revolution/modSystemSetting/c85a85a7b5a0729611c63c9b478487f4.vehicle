@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'd3d01dff66b2e600544fabb52ff28800',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => 'c85a85a7b5a0729611c63c9b478487f4',
+  'native_key' => 'session_cookie_samesite',
+  'object' => '{"key":"session_cookie_samesite","value":"","xtype":"textfield","namespace":"core","area":"session","editedon":null}',
+);

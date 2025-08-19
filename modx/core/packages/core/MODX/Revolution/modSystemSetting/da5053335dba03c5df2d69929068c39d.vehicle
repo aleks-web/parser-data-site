@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'b7591a42513495b9796975e4035ad89e',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => 'da5053335dba03c5df2d69929068c39d',
+  'native_key' => 'static_elements_basepath',
+  'object' => '{"key":"static_elements_basepath","value":"","xtype":"textfield","namespace":"core","area":"static_elements","editedon":null}',
+);

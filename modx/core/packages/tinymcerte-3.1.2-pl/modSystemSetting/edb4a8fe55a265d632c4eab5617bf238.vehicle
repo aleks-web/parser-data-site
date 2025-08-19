@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tinymcerte',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'aed78e118f0a0c702a5af1e68b626ddb',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'edb4a8fe55a265d632c4eab5617bf238',
+  'native_key' => 'tinymcerte.tiny_url',
+  'object' => '{"key":"tinymcerte.tiny_url","value":"{tinymcerte.assets_url}mgr\\/tinymce\\/tinymce.min.js","xtype":"textfield","namespace":"tinymcerte","area":"tinymcerte.default","editedon":null}',
+);

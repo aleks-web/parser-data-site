@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'bc4a31037acce0591938ebfea0e98ad2',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modEvent',
+  'signature' => '8a086fd577aeaa445643585dd5fe638b',
+  'native_key' => 'OnMediaSourceBeforeFormDelete',
+  'object' => '{"name":"OnMediaSourceBeforeFormDelete","service":1,"groupname":"Media Sources"}',
+);

@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '1a8de245a26e61e091b86e8294a8c27a',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => 'b62ff2e9b3edf727178580e1ecce3b4e',
+  'native_key' => 'manager_logo',
+  'object' => '{"key":"manager_logo","value":"","xtype":"textfield","namespace":"core","area":"manager","editedon":null}',
+);

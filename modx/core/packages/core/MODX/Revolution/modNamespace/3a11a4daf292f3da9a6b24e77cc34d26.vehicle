@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '9501b3c7241d1633e47a674ea80b639a',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modNamespace',
+  'signature' => '3a11a4daf292f3da9a6b24e77cc34d26',
+  'native_key' => 'core',
+  'object' => '{"name":"core","path":"{core_path}","assets_path":"{assets_path}"}',
+);

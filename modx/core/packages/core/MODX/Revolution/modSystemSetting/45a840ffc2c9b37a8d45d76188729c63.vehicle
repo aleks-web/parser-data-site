@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '84f28287b7574b7518c4fe1bfa610afd',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '45a840ffc2c9b37a8d45d76188729c63',
+  'native_key' => 'base_help_url',
+  'object' => '{"key":"base_help_url","value":"\\/\\/docs.modx.com\\/help\\/","xtype":"textfield","namespace":"core","area":"manager","editedon":null}',
+);

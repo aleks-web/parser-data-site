@@ -1,0 +1,15 @@
+<?php return array (
+  'preserve_keys' => false,
+  'unique_key' => 
+  array (
+    0 => 'name',
+  ),
+  'update_object' => true,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'b77e4107b89900a68e07dda29c1a0ebf',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modAccessPolicyTemplateGroup',
+  'signature' => '9627bb2205d0cb733798a39a4507062a',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"MediaSource","description":"policy_template_group_mediasource_desc"}',
+);

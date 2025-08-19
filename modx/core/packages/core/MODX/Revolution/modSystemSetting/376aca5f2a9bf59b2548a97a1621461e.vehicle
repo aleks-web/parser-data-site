@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'b189a79a9242b9a41d1e94b4eaf093ea',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '376aca5f2a9bf59b2548a97a1621461e',
+  'native_key' => 'resource_static_allow_absolute',
+  'object' => '{"key":"resource_static_allow_absolute","value":"0","xtype":"combo-boolean","namespace":"core","area":"static_resources","editedon":null}',
+);

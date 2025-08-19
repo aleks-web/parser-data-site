@@ -1,0 +1,15 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => false,
+  'unique_key' => 
+  array (
+    0 => 'name',
+  ),
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '58b07705197c174ec8e12fd80486ab4a',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modDashboardWidget',
+  'signature' => '83cd2415877bf952ef73f6182dfbbe9c',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"w_recentlyeditedresources","description":"w_recentlyeditedresources_desc","type":"file","content":"[[++manager_path]]controllers\\/default\\/dashboard\\/widget.grid-rer.php","properties":null,"namespace":"core","lexicon":"core:dashboards","size":"two-thirds","permission":"view_document"}',
+);

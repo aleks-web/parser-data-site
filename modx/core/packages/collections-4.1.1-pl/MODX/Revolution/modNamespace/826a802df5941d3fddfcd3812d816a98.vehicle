@@ -1,0 +1,45 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"collections-4.1.1-pl\\/MODX\\/Revolution\\/modNamespace\\/826a802df5941d3fddfcd3812d816a98\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"collections"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"collections-4.1.1-pl\\/MODX\\/Revolution\\/modNamespace\\/826a802df5941d3fddfcd3812d816a98\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"collections"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"collections-4.1.1-pl\\/MODX\\/Revolution\\/modNamespace\\/826a802df5941d3fddfcd3812d816a98.gpm.resolve.bootstrap.resolver","name":"gpm.resolve.bootstrap"}',
+    ),
+    3 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"collections-4.1.1-pl\\/MODX\\/Revolution\\/modNamespace\\/826a802df5941d3fddfcd3812d816a98\\/3\\/","target":"return MODX_CORE_PATH . \'components\\/collections\\/docs\\/\';","name":"README.md"}',
+    ),
+    4 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"collections-4.1.1-pl\\/MODX\\/Revolution\\/modNamespace\\/826a802df5941d3fddfcd3812d816a98\\/4\\/","target":"return MODX_CORE_PATH . \'components\\/collections\\/docs\\/\';","name":"LICENSE.md"}',
+    ),
+    5 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"collections-4.1.1-pl\\/MODX\\/Revolution\\/modNamespace\\/826a802df5941d3fddfcd3812d816a98\\/5\\/","target":"return MODX_CORE_PATH . \'components\\/collections\\/docs\\/\';","name":"CHANGELOG.md"}',
+    ),
+  ),
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '5a2ce17bff8b46c8a574ca2a19a0bb2f',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modNamespace',
+  'signature' => '826a802df5941d3fddfcd3812d816a98',
+  'native_key' => 'collections',
+  'object' => '{"name":"collections","path":"{core_path}components\\/collections\\/","assets_path":"{assets_path}components\\/collections\\/"}',
+);

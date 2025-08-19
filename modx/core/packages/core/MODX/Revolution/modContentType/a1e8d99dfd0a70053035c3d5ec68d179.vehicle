@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => false,
+  'unique_key' => 'mime_type',
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '483f2ed00246d9b034ee1cb988202d98',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modContentType',
+  'signature' => 'a1e8d99dfd0a70053035c3d5ec68d179',
+  'native_key' => 8,
+  'object' => '{"id":8,"name":"PDF","description":"PDF Files","mime_type":"application\\/pdf","file_extensions":".pdf","icon":"icon-pdf","headers":"NULL","binary":1}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tinymcerte',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f54faf8373419916431cc772f1eb59da',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '67a182c7a34cdce12417c19436fd1421',
+  'native_key' => 'tinymcerte.image_advtab',
+  'object' => '{"key":"tinymcerte.image_advtab","value":true,"xtype":"combo-boolean","namespace":"tinymcerte","area":"tinymcerte.default","editedon":null}',
+);

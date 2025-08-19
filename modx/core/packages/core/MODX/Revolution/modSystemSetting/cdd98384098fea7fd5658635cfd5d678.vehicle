@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '0fad657e4862facfa637e76f4d8eca81',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => 'cdd98384098fea7fd5658635cfd5d678',
+  'native_key' => 'which_element_editor',
+  'object' => '{"key":"which_element_editor","value":"","xtype":"modx-combo-rte","namespace":"core","area":"editor","editedon":null}',
+);

@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '95e01226820e77dbee5521158c2e2a5e',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '1689e1b8b2671f39184e7071471ddbeb',
+  'native_key' => 'forward_merge_excludes',
+  'object' => '{"key":"forward_merge_excludes","value":"type,published,class_key","xtype":"textfield","namespace":"core","area":"system","editedon":null}',
+);

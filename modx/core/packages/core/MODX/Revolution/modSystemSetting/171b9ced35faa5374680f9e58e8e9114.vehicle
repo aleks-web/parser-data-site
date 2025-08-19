@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'd566485537b4d1a7054647bcb43f1dec',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '171b9ced35faa5374680f9e58e8e9114',
+  'native_key' => 'welcome_namespace',
+  'object' => '{"key":"welcome_namespace","value":"core","xtype":"textfield","namespace":"core","area":"manager","editedon":null}',
+);

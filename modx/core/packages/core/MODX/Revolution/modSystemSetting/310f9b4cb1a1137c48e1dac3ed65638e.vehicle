@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'b26e48f1496284741ea3966f3c28606a',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '310f9b4cb1a1137c48e1dac3ed65638e',
+  'native_key' => 'mail_smtp_single_to',
+  'object' => '{"key":"mail_smtp_single_to","value":false,"xtype":"combo-boolean","namespace":"core","area":"mail","editedon":null}',
+);

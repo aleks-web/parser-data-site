@@ -1,0 +1,12 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'ce64eeb8caa6722201aedab96c805992',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => 'b0cc360df10c786a411058b119006692',
+  'native_key' => 'collections.renderer_image_path',
+  'object' => '{"key":"collections.renderer_image_path","value":"","xtype":"textfield","namespace":"collections","area":"manager","editedon":null}',
+);

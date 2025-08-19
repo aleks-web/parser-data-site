@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'bee6abab6c25042bd9a7501a5ec50efc',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => 'c38620fd4a3278da3364c93a30b7c444',
+  'native_key' => 'passwordless_expiration',
+  'object' => '{"key":"passwordless_expiration","value":"3600","xtype":"textfield","namespace":"core","area":"authentication","editedon":null}',
+);

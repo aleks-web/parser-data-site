@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '593604fcd2d7c4ad08f7c4e797a66d0d',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '7310744934bb17db36240143f3cb6a3f',
+  'native_key' => 'anonymous_sessions',
+  'object' => '{"key":"anonymous_sessions","value":true,"xtype":"combo-boolean","namespace":"core","area":"session","editedon":null}',
+);

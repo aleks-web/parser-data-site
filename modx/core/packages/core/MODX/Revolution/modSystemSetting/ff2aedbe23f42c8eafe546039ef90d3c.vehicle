@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => '08515aba7a967cee2f74d14646cab7c1',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => 'ff2aedbe23f42c8eafe546039ef90d3c',
+  'native_key' => 'phpthumb_error_fontsize',
+  'object' => '{"key":"phpthumb_error_fontsize","value":1,"xtype":"numberfield","namespace":"core","area":"phpthumb","editedon":null}',
+);
