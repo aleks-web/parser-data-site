@@ -7,7 +7,8 @@
  * For complete copyright and license information, see the COPYRIGHT and LICENSE
  * files found in the top-level directory of this distribution.
  */
-
+// phpinfo();
+// exit('Ведутся технические работы');
 $tstart = microtime(true);
 
 /* define this as true in another entry file, then include this file to simply access the API

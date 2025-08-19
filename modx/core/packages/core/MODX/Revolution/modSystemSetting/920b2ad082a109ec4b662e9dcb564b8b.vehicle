@@ -1,0 +1,11 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_class' => 'xPDO\\Transport\\xPDOObjectVehicle',
+  'guid' => 'cc46f0f8e61a67183107900097513c4b',
+  'package' => '',
+  'class' => 'MODX\\Revolution\\modSystemSetting',
+  'signature' => '920b2ad082a109ec4b662e9dcb564b8b',
+  'native_key' => 'unauthorized_page',
+  'object' => '{"key":"unauthorized_page","value":1,"xtype":"numberfield","namespace":"core","area":"site","editedon":null}',
+);
