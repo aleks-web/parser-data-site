@@ -22,3 +22,18 @@ services:
           - ./docker/mysql/volume:/var/lib/mysql
           - ./modx.sql:/var/www/modx/modx.sql
         command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_general_ci']
+
+    phpmyadmin:
+        depends_on:
+          - db_modx
+        image: phpmyadmin
+        restart: always
+        ports:
+          - "8090:80"
+        environment:
+          PMA_HOST: db_modx
+          PMA_USER: root
+          PMA_PASSWORD: 'modx_pass'
+          PMA_PORT: 3306
+        networks:
+          - modx-pd-site-network
