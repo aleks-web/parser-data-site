@@ -1,14 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-    --breakpoint-*: initial;
-    --breakpoint-s: 320px;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 1024px;
-    --breakpoint-xl: 1536px;
-    --breakpoint-2xl: 1836px;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
     --main-clr: #1450d0;
