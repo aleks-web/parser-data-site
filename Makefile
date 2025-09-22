@@ -8,6 +8,9 @@ export
 backup:
 	docker exec db_modx /usr/bin/mysqldump -u ${DB_ROOTUSER} --password=${DB_PASSWORD} ${DB_NAME} > backup.sql && clear && echo 'Backup successfully created'
 
+backup-import:
+	docker exec -i db_modx mysql -u ${DB_ROOTUSER} --password=${DB_PASSWORD} ${DB_NAME} < backup.sql
+
 git:
 	make modx-cache-clear && git add . && git commit -m "The commit is made from the makefile" && clear && git push origin main
 
