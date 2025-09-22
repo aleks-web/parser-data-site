@@ -1,8 +1,18 @@
-:root {
-    --main-clr: #1450D0;
+@import "tailwindcss";
+
+@theme {
+    --breakpoint-*: initial;
+    --breakpoint-s: 320px;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1536px;
+    --breakpoint-2xl: 1836px;
 }
 
-@tailwind base;
+:root {
+    --main-clr: #1450d0;
+}
 
 @layer base {
     body {
@@ -16,8 +26,7 @@ a {
 }
 
 .title-blue {
-    @apply
-    flex items-center bg-[--main-clr] max-w-max px-5 py-1 text-gray-50 text-[22px] italic font-bold uppercase rounded-[20px] leading-10
+    @apply flex items-center bg-[--main-clr] max-w-max px-5 py-1 text-gray-50 text-[22px] italic font-bold uppercase rounded-[20px] leading-10
     md:text-[25px]
     lg:text-[34px] lg:py-2
     xl:text-[44px] xl:py-4
@@ -25,8 +34,7 @@ a {
 }
 
 .title-white {
-    @apply
-    flex items-center bg-[white] max-w-max px-5 py-1 text-gray-600 text-[22px] italic font-bold uppercase rounded-[20px] leading-10
+    @apply flex items-center bg-[white] max-w-max px-5 py-1 text-gray-600 text-[22px] italic font-bold uppercase rounded-[20px] leading-10
     md:text-[25px]
     lg:text-[34px] lg:py-2
     xl:text-[44px] xl:py-4
@@ -36,9 +44,6 @@ a {
 .page-banner {
     @apply my-[15svw] s:my-[50px] md:my-[60px] lg:my-[75px] xl:my-[85px] 2xl:my-[100px];
 }
-
-@tailwind components;
-@tailwind utilities;
 
 .contact-block .splide__arrows .splide__arrow,
 .reviews-block .splide__arrows .splide__arrow,
@@ -66,5 +71,4 @@ a {
 }
 
 .splide-works-block .splide__arrow {
-
 }

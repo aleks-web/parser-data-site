@@ -5,6 +5,7 @@ FROM php:8.3-fpm-alpine
 # install composer
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 ENV COMPOSER_HOME="/tmp/composer"
+ENV COMPOSER_PROCESS_TIMEOUT=900
 
 RUN apk update \
     && apk upgrade \

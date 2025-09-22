@@ -30,6 +30,7 @@ services:
             - modx-pd-site-network
         volumes:
             - ./modx:/var/www/modx
+            - ./docker/php-fpm8.3/php.ini:/usr/local/etc/php/php.ini
 
     db_modx:
         container_name: db_modx
@@ -59,8 +60,10 @@ services:
             - "8090:80"
         environment:
             PMA_HOST: db_modx
-            PMA_USER: root
+            PMA_USER: modx
             PMA_PASSWORD: 'modx_pass'
             PMA_PORT: 3306
+        volumes:
+            - ./docker/php-fpm8.3/php.ini:/usr/local/etc/php/php.ini
         networks:
             - modx-pd-site-network
