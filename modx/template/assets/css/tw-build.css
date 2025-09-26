@@ -644,6 +644,10 @@ body {
   right: -0px;
 }
 
+.-right-\[10px\] {
+  right: -10px;
+}
+
 .-top-5 {
   top: -1.25rem;
 }
@@ -738,6 +742,18 @@ body {
 
 .top-\[85\%\] {
   top: 85%;
+}
+
+.-top-10 {
+  top: -2.5rem;
+}
+
+.-top-6 {
+  top: -1.5rem;
+}
+
+.-right-\[5px\] {
+  right: -5px;
 }
 
 .-z-10 {
@@ -1118,6 +1134,10 @@ body {
 
 .w-full {
   width: 100%;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .min-w-10 {
@@ -1731,6 +1751,26 @@ body {
   padding-bottom: 85px;
 }
 
+.px-\[27px\] {
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+.py-\[54px\] {
+  padding-top: 54px;
+  padding-bottom: 54px;
+}
+
+.py-\[44px\] {
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.py-\[34px\] {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1925,6 +1965,10 @@ body {
   line-height: 1.5rem;
 }
 
+.leading-\[100\%\] {
+  line-height: 100%;
+}
+
 .leading-\[17px\] {
   line-height: 17px;
 }
@@ -2044,6 +2088,16 @@ body {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
 }
 
 .opacity-0 {
@@ -2604,6 +2658,14 @@ a:hover {
     margin-top: 1.5rem;
   }
 
+  .s\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .s\:mt-\[3px\] {
+    margin-top: 3px;
+  }
+
   .s\:block {
     display: block;
   }
@@ -2624,6 +2686,14 @@ a:hover {
     width: 100%;
   }
 
+  .s\:w-\[30px\] {
+    width: 30px;
+  }
+
+  .s\:w-\[25px\] {
+    width: 25px;
+  }
+
   .s\:min-w-4 {
     min-width: 1rem;
   }
@@ -2642,6 +2712,10 @@ a:hover {
 
   .s\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .s\:gap-2 {
+    gap: 0.5rem;
   }
 
   .s\:rounded-\[16px\] {
@@ -2701,6 +2775,14 @@ a:hover {
   .s\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .s\:text-\[13px\] {
+    font-size: 13px;
+  }
+
+  .s\:text-\[12px\] {
+    font-size: 12px;
   }
 }
 
@@ -2823,10 +2905,6 @@ a:hover {
   .sm\:max-w-max {
     max-width: -moz-max-content;
     max-width: max-content;
-  }
-
-  .sm\:grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .sm\:grid-cols-2 {
@@ -2995,6 +3073,10 @@ a:hover {
     line-height: 1.75rem;
   }
 
+  .sm\:text-\[15px\] {
+    font-size: 15px;
+  }
+
   .sm\:leading-5 {
     line-height: 1.25rem;
   }
@@ -3106,12 +3188,20 @@ a:hover {
     width: 500px;
   }
 
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
   }
 
   .md\:justify-start {
@@ -3418,6 +3508,10 @@ a:hover {
 
   .lg\:w-\[600px\] {
     width: 600px;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:min-w-full {
@@ -3887,6 +3981,21 @@ a:hover {
     padding-bottom: 45px;
   }
 
+  .xl\:py-\[85px\] {
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+
+  .xl\:px-\[47px\] {
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+
+  .xl\:px-\[55px\] {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+
   .xl\:pt-20 {
     padding-top: 5rem;
   }
@@ -3960,6 +4069,10 @@ a:hover {
   .xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .xl\:text-\[25px\] {
+    font-size: 25px;
   }
 
   .xl\:leading-5 {
@@ -4074,6 +4187,10 @@ a:hover {
     gap: 2rem;
   }
 
+  .\32xl\:gap-3 {
+    gap: 0.75rem;
+  }
+
   .\32xl\:rounded-\[40px\] {
     border-radius: 40px;
   }
@@ -4094,6 +4211,16 @@ a:hover {
   .\32xl\:py-\[50px\] {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  .\32xl\:px-\[47px\] {
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+
+  .\32xl\:py-\[85px\] {
+    padding-top: 85px;
+    padding-bottom: 85px;
   }
 
   .\32xl\:pb-32 {
@@ -4142,6 +4269,15 @@ a:hover {
 
   .\32xl\:text-\[52px\] {
     font-size: 52px;
+  }
+
+  .\32xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .\32xl\:text-\[25px\] {
+    font-size: 25px;
   }
 
   .\32xl\:leading-6 {
